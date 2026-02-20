@@ -34,8 +34,8 @@ class MovieApp(tk.Tk):
     def __init__(self):
         super().__init__()
         self.api = MovieAPI("60991b3138c3f10791cfb1d8e0cd2da3")
-        self.title("Cinema Discovery Tool")
-        self.geometry("1000x800")
+        self.title("The Movie Database")
+        self.geometry("1920x1080")
         self.image_cache = [] 
 
         self._build_interface()
